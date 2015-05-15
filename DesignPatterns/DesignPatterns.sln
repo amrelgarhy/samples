@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodPattern", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod1", "TemplateMethod1\TemplateMethod1.csproj", "{C315ACA5-78D0-439A-887B-2EC97D312739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandPattern", "CommandPattern", "{2FCC6DBA-594E-40DC-92EB-7EBEEFD6F854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern1", "CommandPattern1\CommandPattern1.csproj", "{31F11EE1-3247-4681-AD89-4BD16090CFD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{C315ACA5-78D0-439A-887B-2EC97D312739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C315ACA5-78D0-439A-887B-2EC97D312739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C315ACA5-78D0-439A-887B-2EC97D312739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F11EE1-3247-4681-AD89-4BD16090CFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F11EE1-3247-4681-AD89-4BD16090CFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F11EE1-3247-4681-AD89-4BD16090CFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F11EE1-3247-4681-AD89-4BD16090CFD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +103,6 @@ Global
 		{3B9192AA-733F-4BDA-BE1A-6D92B86A5C2A} = {8F15AAD1-75D8-4BF6-BC3F-F59D69415DAD}
 		{77BBE65C-1290-4C1A-A2D4-B8A8A97F6A3D} = {46755446-6EA5-4574-8328-B8933E8EAC0A}
 		{C315ACA5-78D0-439A-887B-2EC97D312739} = {34669323-C258-4F24-8E5B-6ECC71FF590D}
+		{31F11EE1-3247-4681-AD89-4BD16090CFD6} = {2FCC6DBA-594E-40DC-92EB-7EBEEFD6F854}
 	EndGlobalSection
 EndGlobal
