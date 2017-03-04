@@ -10,6 +10,11 @@ namespace BasicsCSharp
     {
         static void Main(string[] args)
         {
+            var myClass = new PropertiesClass();
+            //myClass.ReadOnlyTotalPrice = 10;  // compiler error
+            //myClass.ReadOnlyExpressionTotalPrice = 10; // compiler error
+
+            Console.WriteLine(myClass.ReadOnlyInlineInitProperty);
 
         }
     }
